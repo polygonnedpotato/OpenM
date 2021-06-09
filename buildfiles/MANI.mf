@@ -1,0 +1,13 @@
+Manifest-Version: 1.0
+Main-Class: Main
+Class-Path: openm.jar
+Name: openm
+Package-Title: OpenM
+Package-Version: 0.0.0
+Package-Vendor: Brendan Berger
+Specification-Title: OpenM
+Specification-Version: 0.0.0
+Specification-Vendor: Brendan Berger
+Implementation-Title: openm
+Implementation-Version: v0r0b0
+Implementation-Vendor: Brendan Berger
