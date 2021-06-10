@@ -15,11 +15,7 @@ public class ErrorHan {
       default:
         ten=Resc.error.Ezz;
     };
-    if(ain==null){
-      hidden="";
-    }else{
-      hidden=" Other information: "+ain;
-    }
+    if(ain==null){hidden="";}else{hidden=" Other information: "+ain;}
     System.out.println(Resc.esChs.redText+Resc.esChs.bold+"[ERROR]["+errC+"("+ten[1]+")] "+ten[0]+Resc.esChs.rapidBlink+Resc.esChs.faint+" Source:"+src+hidden+Resc.esChs.clear);
   }
 }
