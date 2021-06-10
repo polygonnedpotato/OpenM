@@ -4,7 +4,7 @@ mkdir ./.out/
 cd ./.out/
 touch "openm.jar"
 cd ../java/
-javac Main.java FileOps.java Resc.java ErrorHan.java Bank.java -d ../.javaout/
+javac Main.java FileOps.java Resc.java ErrorHan.java Bank.java AudioStream.java -d ../.javaout/
 cd ../.javaout/
 jar cvfm ../.out/openm.jar ../buildfiles/MANI.mf *
 cd ../.out/

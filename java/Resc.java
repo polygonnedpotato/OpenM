@@ -4,7 +4,7 @@ public class Resc{
     final static String[] E00={"No valid arguments were passed.","noValidCliEnter"};
     final static String[] E01={"OpenM was started without context.","nonContextualStart"};
     final static String[] E02={"Application resources might be corrupted.","rescCorrupted"};
-    final static String[] E03={"This OpenM bank file may be corrupted.","ombFileCorruptionDetected"}
+    final static String[] E03={"This OpenM bank file may be corrupted.","ombFileCorruptionDetected"};
     final static String[] Ezz={"An unknown error occurred.","unknownError"};
   }static class esChs{
     final static String clear="\033[0m";
