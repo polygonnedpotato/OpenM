@@ -12,6 +12,9 @@ public class ErrorHan {
       case"02":
         ten=Resc.error.E02;
         break;
+      case"03":
+        ten=Resc.error.E03;
+        break;
       default:
         ten=Resc.error.Ezz;
     };

@@ -4,6 +4,7 @@ public class Resc{
     final static String[] E00={"No valid arguments were passed.","noValidCliEnter"};
     final static String[] E01={"OpenM was started without context.","nonContextualStart"};
     final static String[] E02={"Application resources might be corrupted.","rescCorrupted"};
+    final static String[] E03={"This OpenM bank file may be corrupted.","ombFileCorruptionDetected"}
     final static String[] Ezz={"An unknown error occurred.","unknownError"};
   }static class esChs{
     final static String clear="\033[0m";
@@ -24,6 +25,9 @@ public class Resc{
     final static String magentaText="\033[35m";
     final static String cyanText="\033[36m";
     final static String whiteext="\033[37m";
+  }static class banks{
+    final static String defaultBank="";
+    final static String[] banks={defaultBank};
   }
   final static String asciiart=" ██████╗ ██████╗ ███████╗███╗   ██╗███╗   ███╗\n██╔═══██╗██╔══██╗██╔════╝████╗  ██║████╗ ████║\n██║   ██║██████╔╝█████╗  ██╔██╗ ██║██╔████╔██║\n██║   ██║██╔═══╝ ██╔══╝  ██║╚██╗██║██║╚██╔╝██║\n╚██████╔╝██║     ███████╗██║ ╚████║██║ ╚═╝ ██║\n ╚═════╝ ╚═╝     ╚══════╝╚═╝  ╚═══╝╚═╝     ╚═╝";
   final static String openmversion="0.0.0";
